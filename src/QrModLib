@@ -9,10 +9,10 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class ExampleJavaMod extends Mod{
+public class QrModLib extends Mod{
 
-    public ExampleJavaMod(){
-        Log.info("Loaded ExampleJavaMod constructor.");
+    public QrModLib(){
+        Log.info("Loaded the mod.");
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
